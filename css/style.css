@@ -5,6 +5,7 @@
     outline: 0px;
     text-decoration: none;
     list-style: none;
+    overflow-x: hidden;
 }
 
 .container{
