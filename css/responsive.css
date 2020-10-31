@@ -1,0 +1,162 @@
+/* Responsive Started */
+
+
+/* Samsung Galaxy S5 */
+
+
+/* Viewport: 360px x 640px */
+
+@media screen and (min-width: 360px) and (max-width: 640px) {
+    /* Default CSS Start */
+    .container {
+        width: 300px;
+        margin: auto !important;
+    }
+
+
+    /* navigation-bar started */
+    .p1-menu {
+        display: none;
+    }
+    #p1-src {
+        width: 150px;
+    }
+    .p2-icn {
+        display: none;
+    }
+    .nav-p3 {
+        display: none;
+    }
+    .nav-bars{
+        display: inline-block;
+    }
+    .nav-bars ul{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: #f2f2f2;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        text-align: center;
+      }
+      .nav-bars ul li{
+          padding: 25px;
+      }
+      .nav-bars ul li a{
+          color: black;
+          font-size: main-font;
+      }
+      .nav-bars ul li a:hover {
+        color: red;
+    }
+    .checkbtn{
+        font-size: 30px;
+        color: white;
+        float: right;
+        /* line-height: 80px;
+        margin-right: 40px; */
+        cursor: pointer;
+        display: inline-block;
+      }
+      #check{
+        display: none;
+      }
+      #check:checked ~ ul{
+        left: 0;
+      }
+
+    /* navigation-bar end */
+
+
+
+    /* banner started */
+    .b-img img {
+        max-width: 314px;
+    }
+    .b-cnt h3 {
+        font-size: 37pt;
+    }
+    .b-img {
+        display: block;
+        float: none;
+        width: 100%;
+        height: 100%;
+    }
+    .b-cnt {
+        display: block;
+        float: none;
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+    }
+    .b-cnt p {
+        font-size: 7pt;
+        padding: 20px 0;
+    }
+
+
+
+
+    /* banner end */
+
+    /* about started */
+    .abt {
+        width: 100%;
+        display: block;
+        float: none;
+    }
+    .srv {
+        width: 100%;
+        display: block;
+        float: none;
+    }
+    .clnt {
+        width: 100%;
+        display: block;
+        float: none;
+    }
+    
+
+    /* about end */
+    /* info started */
+    .info-row {
+        width: 100%;
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    .info-head h3::before {
+        left: 158px;
+    }
+    #cont-inpt\ message {
+        margin-left: 15%;
+        margin-right: 35%;
+    }
+
+
+    /* info end */
+    /* footer started */
+    .footer {
+        text-align: center;
+    }
+    .f-col {
+        float: none;
+    }
+    .f-col-2 {
+        float: none;
+    }
+    .f-col p {
+        font-size: 9pt;
+        padding: 35px 0 0 0;
+    }
+    .f-col-2 p {
+        font-size: 9pt;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+
+    /* footer end */
+}
